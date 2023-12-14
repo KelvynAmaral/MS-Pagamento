@@ -7,14 +7,18 @@ import lombok.Setter;
 @Getter
 @Setter
 public record DadosPagamento(
-
+        @NotBlank
+        Long id,
         @NotBlank
         String nome,
+
+        @NotBlank
         String numeroCartao,
+
+        @NotBlank
         String expiracaoCartao,
-        String codigoSegurancaCartao,
-        String valor,
-        String pedidoId,
-        String formaPagamentoId
-) {
+
+        @NotBlank
+        String codigoSegurancaCartao) {
+
 }

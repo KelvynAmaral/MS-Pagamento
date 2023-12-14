@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Service
-@RequestMapping("/pagamentos")
 //@SecurityRequirement
 public class PagamentoService {
             @Autowired
@@ -36,7 +35,7 @@ public class PagamentoService {
            public DadosPagamento criarPagamento(DadosPagamento dadosPagamento) {
                Pagamento pagamento = modelMapper.map(dadosPagamento, Pagamento.class);
                pagamento.setStatus(Status.CRIADO);
-               pagamento = repository.save(pagamento);
+               repository.save(pagamento);
 
                return modelMapper.map(pagamento, DadosPagamento.class);
            }

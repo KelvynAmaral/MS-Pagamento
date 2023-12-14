@@ -13,3 +13,9 @@ y
 Ipagamentos/src/main/java/br/com/food/pagamentos/model/DadosPagamento.java,e\3\e363781a3aa966a5dfc0752e6885e190a61a7901
 ƒ
 Spagamentos/src/main/java/br/com/food/pagamentos/controller/PagamentoController.java,0\a\0a93943ecf0935413b78cb10a7c4ffd70cfb86bf
+z
+Jpagamentos/src/main/java/br/com/food/pagamentos/PagamentosApplication.java,0\7\0795bd9cf4167066ab06f46f2c3327cf04a7812a
+x
+Hpagamentos/src/main/java/br/com/food/pagamentos/config/Configuracao.java,3\e\3e4efd4fc124e4cea64080b24193760d0cbf8990
+9
+	.gitgnore,6\4\64ad37136fa8e582074cb85fff9d6874c3b6f007
